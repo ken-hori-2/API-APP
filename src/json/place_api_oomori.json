@@ -1,0 +1,219 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 35.5663948,
+                    "lng": 139.7366423
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.56769567989272,
+                        "lng": 139.7379777798927
+                    },
+                    "southwest": {
+                        "lat": 35.56499602010727,
+                        "lng": 139.7352781201072
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Cafe＆Lounge h.t.s",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115194720429275781374\">藤田さおり</a>"
+                    ],
+                    "photo_reference": "ATplDJZK3VIhwR_VUCQwXG--zqJQ79qNsv7GRuCOVqnE0MAZhSHxihxpG4IdV0H0fRRFBER-pkFOKFzJLszl4wIsZcWoEVpAnfw5Aju_9VfepDx1Um3SU1vhnp_qVYJ8s7AWYVSD3B9eB7hEQaQQcOv4gsRX_y7rVBbXRaW5H4A0I_LNvIev",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJbaE92FZhGGARfIqfM4JI6g0",
+            "plus_code": {
+                "compound_code": "HP8P+HM 大田区、東京都",
+                "global_code": "8Q7XHP8P+HM"
+            },
+            "rating": 4.3, // 評価（☆4.3）
+            "reference": "ChIJbaE92FZhGGARfIqfM4JI6g0",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ],
+            "user_ratings_total": 52, // レビューの数
+            "vicinity": "大田区大森東４丁目３６−１６ メゾン・ド・シャルマン 1F"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 35.57154209999999,
+                    "lng": 139.7362903
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.57287622989272,
+                        "lng": 139.7376554298927
+                    },
+                    "southwest": {
+                        "lat": 35.57017657010727,
+                        "lng": 139.7349557701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "ダンテル",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111268594780941321829\">長井博司</a>"
+                    ],
+                    "photo_reference": "ATplDJasDmAcMEd9zE9AToRHCtfpUOp0nXoSAeU7pV3DPN1LfMFruK6O3-f-0qzbQn7rJP8rLUEJ5kHyvpai8FB6ljguQyK8GJVHbSts7efF20YJURxgrh9MYjxSnEkEDiQ4HDIliNLQSLwXehYRYDeSkneVjO3rWDc-rCZQmkTPBfbFmOhb",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJr4KAw61hGGAR1DVfJfmBbhA",
+            "plus_code": {
+                "compound_code": "HPCP+JG 大田区、東京都",
+                "global_code": "8Q7XHPCP+JG"
+            },
+            "rating": 3.8,
+            "reference": "ChIJr4KAw61hGGAR1DVfJfmBbhA",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "point_of_interest",
+                "food",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 10,
+            "vicinity": "大田区大森東２丁目２５−９"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 35.5683983,
+                    "lng": 139.7409054
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.56975002989272,
+                        "lng": 139.7422545298927
+                    },
+                    "southwest": {
+                        "lat": 35.56705037010727,
+                        "lng": 139.7395548701072
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Fishingnuts CAFÉ",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107792759944506030625\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATplDJaafSdxGFP2gY1H9cLiwLawawVm_6NSYrLiet_RTEroTAWiXc_iTJ7e4JLDA1ydlA5NJfe4vv3zXpV9Ou77J4d7g4jA5TJqLYVh94OQlGyOg2_DE4Lnv0EakUqTIHTliwHy25XPWRCtxpEXPnrrfYBP1XcpkY0B_d1jTVbKLIdDizRw",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJky0pYIhhGGARGpm0pT_WYeI",
+            "plus_code": {
+                "compound_code": "HP9R+98 大田区、東京都",
+                "global_code": "8Q7XHP9R+98"
+            },
+            "rating": 4.6,
+            "reference": "ChIJky0pYIhhGGARGpm0pT_WYeI",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "point_of_interest",
+                "food",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 35,
+            "vicinity": "大田区大森東５丁目９−１１"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 35.5679047,
+                    "lng": 139.7355226
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.56925542989272,
+                        "lng": 139.7369430798927
+                    },
+                    "southwest": {
+                        "lat": 35.56655577010728,
+                        "lng": 139.7342434201072
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "ホクエツ",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103455086107847251326\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATplDJZEUKi-SypDSbuDQXFiX1Km1v327UqfpuJ5U-TUFP6gF5EwGgbZD8QYxWLNTpBPc4uX4ckG3S0qh61jPTwstO7kmF2AoJCxQTPxWIKmbmzoNeRTP11sMRoivUE-VhNFnTi-zeEbUqfvAd2cjucUMOhZg70zXV9Pwd_Sl6fcdmxxuVeA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJjQV2iathGGAR5rH8fVeG0GE",
+            "plus_code": {
+                "compound_code": "HP9P+55 大田区、東京都",
+                "global_code": "8Q7XHP9P+55"
+            },
+            "price_level": 2,
+            "rating": 4,
+            "reference": "ChIJjQV2iathGGAR5rH8fVeG0GE",
+            "scope": "GOOGLE",
+            "types": [
+                "atm",
+                "finance",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ],
+            "user_ratings_total": 255,
+            "vicinity": "大田区大森中２丁目１４−９"
+        }
+    ],
+    "status": "OK"
+}

@@ -1,0 +1,116 @@
+Google maps API:
+.env に格納
+
+URL:
+Directions API のリクエストの形式
+https://maps.googleapis.com/maps/api/directions/outputFormat?parameters
+
+ここで、outputFormat は次のいずれかの値です。
+json（推奨）は、出力が JSON（JavaScript Object Notation）であることを示します。
+xml は出力が XML であることを示します。
+
+例：
+https://maps.googleapis.com/maps/api/directions/json?origin=東京駅&destination=スカイツリー&key=<APIキー>
+上記例で指定したパラメータ
+　outputFormat=json
+　origin=東京駅 # 出発地点
+　destination=スカイツリー # 到着地点
+　key={取得したAPI Key}
+　
+　以下オプション
+　mode={以下、例}
+    driving - 車 ※デフォルト
+    walking - 徒歩
+    transit - 電車
+　departure_time={以下、例}
+　　mode=drivingの場合に設定でき、現在時刻以降を設定する。※過去時間は設定NGです(結果が空白になります)
+    ※現在時刻を設定する場合は、UNIX時間を設定でもできますが、「departure_time=now」 でも現在時刻が設定されます
+　traffic_model={以下、例}
+　　交通状態を考慮した時間算出方法を選択
+    ※departure_time が設定された場合に有効になるパラメータになります
+    best_guess ※デフォルト
+    正確に予測
+    ⇒リクエストされた時刻や曜日に関連する過去のデータやリアルタイムの交通状況に基づいて、最適な移動時間が算出されます。
+    optimistic
+    楽観的に予測
+    pessimistic
+    悲観的に予測
+
+    　　用途に応じて変更：
+    　　　　楽観的、悲観的についてのユースケースは、以下のドキュメントの説明がわかりやすい
+            　https://developers-jp.googleblog.com/2015/11/google-maps-apis.html
+            ＞米国で不動産情報サイトを運営する Redfin 社では、不動産仲介業者が複数の物件の間を車で移動する際の所要時間の推定を
+            ＞Google Maps Distance Matrix API を利用して実現しようとしています。
+            ＞物件間の移動時間は十分余裕があることが望ましいので、ここでは pessimistic と設定します。
+            ＞一方、遠隔地から自宅のエアコンを制御するアプリケーションでは、
+            ＞帰宅するまでの間に部屋の温度が設定値となるように調整したいと考えるでしょうから、この場合は、optimistic に設定します。
+            通常は、「best_guess」でよさそうです。
+↓
+自分のAPIで実行：
+https://maps.googleapis.com/maps/api/directions/json?origin=%E6%9D%B1%E4%BA%AC%E9%A7%85&destination=%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC&key={API_KEY}
+出力ファイル：output.json
+
+
+
+
+
+
+
+
+# Place API
+https://maps.googleapis.com/maps/api/place/nearbysearch/output?parameters
+
+curl -v -X GET 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key={API_KEY}&location=35.6987769,139.76471&radius=300&language=ja&keyword=公園OR広場OR駅'
+→周辺地域の公園、広場、駅を検索
+output : palce_result.json
+
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?key={API_KEY}&location=35.6987769,139.76471&radius=300&language=ja&keyword=%E3%82%AB%E3%83%95%E3%82%A7OR%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3
+
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?key={API_KEY}&location=35.5688551,139.7395562&radius=300&language=ja&keyword=%E3%82%AB%E3%83%95%E3%82%A7OR%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3
+
+
+
+
+
+
+
+
+
+# Googke Cloud Console
+https://console.cloud.google.com/apis/credentials?project=app-demo-415914
+
+
+# API KeyのIPアドレスによる制限
+https://mgmgblog.com/post-2273/
+
+→ IPv4ではエラー
+→ IPv6ならアクセス可能
+
+# 参考文献一覧
+Directions API(Google Maps Platform) をコールしてルート間の距離と所要時間をPythonで取得する
+https://qiita.com/kngsym2018/items/15f19a88ea37c1cd3646
+
+Google Map API で経路情報を取得する．
+https://qiita.com/keijipoon/items/0394dab6b434a34a6ae7
+
+google マップソリューション
+https://mapsplatform.google.com/solutions/offer-efficient-routes/
+
+お父さん必見！週末お出かけ候補リストをかんたん作成(Python、Directions API)
+https://qiita.com/kngsym2018/items/6664539b4fcd1d5f4cac#:~:text=%E9%80%B1%E6%9C%AB%E3%81%8A%E5%87%BA%E3%81%8B%E3%81%91%E5%80%99%E8%A3%9C%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E4%BD%9C%E6%88%90%20%28Python%E3%80%81Directions%20API%29%201%20%E6%9C%AC%E6%8A%95%E7%A8%BF%E3%81%AE%E8%83%8C%E6%99%AF%20%E5%AE%B6%E6%97%8F%E3%81%A7%E3%81%8A%E5%87%BA%E3%81%8B%E3%81%91%E3%81%99%E3%82%8B%E9%9A%9B%E3%80%81%20...%202,...%205%20Google%E3%83%9E%E3%83%83%E3%83%97%20URL%E8%A8%AD%E5%AE%9A%20...%206%20%E5%8F%82%E8%80%83%E3%83%AA%E3%83%B3%E3%82%AF%20
+
+Google mapのPlaces APIで指定したエリア内にある特定の場所を調べてみよう！
+https://qiita.com/yoshii0110/items/7938085151f569427af6
+
+【Google MAP】名称から場所を検索・特定する
+https://qiita.com/yoshi_yast/items/521c1f36306a180f45dd
+
+【個人開発】ランキング自動生成サイト(Python/Django)
+https://qiita.com/yoshi_yast/items/4f0be22bfcf2d63412ee
+
+PythonでGoogle Places API使ってデータ取得してみた
+https://qiita.com/mgmgmogumi/items/f160d28a0643f683afeb
+
+pythonでテキストや文字列を読み上げる
+https://elsammit-beginnerblg.hatenablog.com/entry/2021/12/09/234220#:~:text=python%E3%81%A7%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%84%E6%96%87%E5%AD%97%E5%88%97%E3%82%92%E8%AA%AD%E3%81%BF%E4%B8%8A%E3%81%92%E3%82%8B%201%20%E2%96%A0%E6%BA%96%E5%82%99%20%E4%BB%8A%E5%9B%9E%E8%AA%AD%E3%81%BF%E4%B8%8A%E3%81%92%E3%82%92%E8%A1%8C%E3%81%86%E3%81%AB%E3%81%82%E3%81%9F%E3%82%8A%E3%80%81pyttsx3%E3%82%92%E7%94%A8%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%20...%202%20%E2%96%A0%E7%B0%A1%E5%8D%98%E3%81%AA%E6%96%87%E5%AD%97%E5%88%97%E3%82%92%E8%AA%AD%E3%81%BF%E4%B8%8A%E3%81%92%E3%81%A6%E3%81%BF%E3%82%8B%20%E3%81%A7%E3%81%AF%E6%97%A9%E9%80%9F%E3%80%81%E7%B0%A1%E5%8D%98%E3%81%AA%E6%96%87%E5%AD%97%E5%88%97%E3%81%AE%E8%AA%AD%E3%81%BF%E4%B8%8A%E3%81%92%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E3%81%99%E3%80%82,...%206%20%E2%96%A0%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%92%E8%AA%AD%E3%81%BF%E4%B8%8A%E3%81%92%E3%81%A6%E3%81%BF%E3%82%8B%20...%207%20%E2%96%A0%E6%9C%80%E5%BE%8C%E3%81%AB%20...%20%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0
+

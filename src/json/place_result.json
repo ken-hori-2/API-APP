@@ -1,0 +1,109 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 35.6971107,
+                    "lng": 139.7671332
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.69839487989272,
+                        "lng": 139.7684468798927
+                    },
+                    "southwest": {
+                        "lat": 35.69569522010728,
+                        "lng": 139.7657472201072
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "name": "千代田区立淡路公園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118093970687715865495\">JENNIFER</a>"
+                    ],
+                    "photo_reference": "ATplDJa_7Rwseh-5bSwi_AZh_kefLxVHnUnwDYGwpYIsZQ92Nu4sdsOPRHv_cfJtWrn1VhVUEoX1mzdJ82KWx794trKk5tQpXyQxhmlLFmbFt0TG61DlQe8CGM7E4mCBON6Wpxp3wlU3qpg5mH8IA3L9NspLl77rzzE1i5aiqWmo1Y2jLAec",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJb_7IaRuMGGARavmrYh6B_5w",
+            "plus_code": {
+                "compound_code": "MQW8+RV 千代田区、東京都",
+                "global_code": "8Q7XMQW8+RV"
+            },
+            "rating": 4,
+            "reference": "ChIJb_7IaRuMGGARavmrYh6B_5w",
+            "scope": "GOOGLE",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 205,
+            "vicinity": "千代田区神田淡路町２丁目２７"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 35.6983772,
+                    "lng": 139.7692027
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.69972702989272,
+                        "lng": 139.7705525298927
+                    },
+                    "southwest": {
+                        "lat": 35.69702737010727,
+                        "lng": 139.7678528701072
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "name": "千代田区立昌平橋東橋詰広場",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112668522159162630704\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATplDJbZPcvyY63xslKMNixVncfcBF30ECQEbFJn8wZoOT_eqL95QrMAEFflZPTydZJhL61IB1-r7wz2W3UFHtX_HZnFrVkyeK7O8fF5uiYEXP-rlJdXhz1CozSCFymwXWf4-5dycnguv9VZVuz1uvqG_0bBhQqoJpm1AxaJZ3udYoiOUS8K",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ9ZdjjRyMGGARVD_ICCvWMI0",
+            "plus_code": {
+                "compound_code": "MQX9+9M 千代田区、東京都",
+                "global_code": "8Q7XMQX9+9M"
+            },
+            "rating": 3.7,
+            "reference": "ChIJ9ZdjjRyMGGARVD_ICCvWMI0",
+            "scope": "GOOGLE",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 56,
+            "vicinity": "千代田区神田須田町１丁目１−１−１"
+        }
+    ],
+    "status": "OK"
+}

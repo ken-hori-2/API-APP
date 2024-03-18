@@ -1,0 +1,221 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "partial_match": true,
+            "place_id": "ChIJC3Cf2PuLGGAROO00ukl8JwA",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "subway_station",
+                "train_station",
+                "transit_station"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "partial_match": true,
+            "place_id": "ChIJ35ov0dCOGGARKvdDH7NPHX0",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 35.7109942,
+                    "lng": 139.8146837
+                },
+                "southwest": {
+                    "lat": 35.6835586,
+                    "lng": 139.767184
+                }
+            },
+            "copyrights": "Map data ©2024 Google",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "6.6 km",
+                        "value": 6552
+                    },
+                    "duration": {
+                        "text": "22分",
+                        "value": 1308
+                    },
+                    "duration_in_traffic": {
+                        "text": "22分",
+                        "value": 1322
+                    },
+                    "end_address": "日本、〒131-0045 東京都墨田区押上１丁目１−２",
+                    "end_location": {
+                        "lat": 35.7108481,
+                        "lng": 139.8129626
+                    },
+                    "start_address": "日本、〒100-0005 東京都千代田区丸の内１丁目９ 東京駅",
+                    "start_location": {
+                        "lat": 35.6835586,
+                        "lng": 139.767184
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "90 m",
+                                "value": 90
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 40
+                            },
+                            "end_location": {
+                                "lat": 35.6843045,
+                                "lng": 139.7675584
+                            },
+                            "html_instructions": "<b>北</b>方向に<b>丸の内室町線</b>/<wbr/><b>都道407号</b>を進んで<b>永代通り</b>/<wbr/><b>国道1号</b>/<wbr/><b>国道20号</b>に向かう",
+                            "polyline": {
+                                "points": "gmxxE{gatYAAQGk@WGCkAe@"
+                            },
+                            "start_location": {
+                                "lat": 35.6835586,
+                                "lng": 139.767184
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "76 m",
+                                "value": 76
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 33
+                            },
+                            "end_location": {
+                                "lat": 35.6842478,
+                                "lng": 139.7683223
+                            },
+                            "html_instructions": "<b>丸の内一丁目（交差点）</b> を<b>右折</b>して <b>丸の内室町線</b>/<wbr/><b>永代通り</b>/<wbr/><b>国道1号</b>/<wbr/><b>国道20号</b>/<wbr/><b>都道407号</b> に入る",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "{qxxEgjatYQQBOL_AHu@"
+                            },
+                            "start_location": {
+                                "lat": 35.6843045,
+                                "lng": 139.7675584
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.8 km",
+                                "value": 2825
+                            },
+                            "duration": {
+                                "text": "10分",
+                                "value": 578
+                            },
+                            "end_location": {
+                                "lat": 35.7015946,
+                                "lng": 139.7891019
+                            },
+                            "html_instructions": "<b>左折</b>して<b>丸の内室町線</b>/<wbr/><b>江戸通り</b>/<wbr/><b>都道407号</b>に入る<div style=\"font-size:0.9em\">そのまま 江戸通り を進む</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "qqxxE_oatYu@QsA]IA{@Ua@MICcBg@_@GSGOEA?_@Ka@MAACAYSa@[AASSGEa@[IGa@[IKIUEIEKCKCIIa@Sy@UcA[sAEUEQGWQu@ESESCIAIAAI]Kg@Me@Ke@Ki@CGEWEOS_AIa@EQMk@G_@UaAKe@S_AG[CMAEAGEIEKI_@EMS{@Mg@AEAGGW[mACMAEGMGOGMIOSc@CEO]EIa@{@CEYm@IKEMOYYm@Wg@GMKSSc@GOGGc@}@e@_AYk@]s@KO]g@U[o@_AEGSWACMQOUW[OSIMOUOSYa@o@{@MQU[CEMQ[e@KOKOi@u@MQEIUY[e@MOIIMQ[a@MQ[a@QWEGEEGGEEEEECIEKEYMQGUIIEIEGCg@WKIeAk@AAOIa@SI?CAC?KECAWMEASMEAECi@[}@e@e@W[OOI_@U{@g@i@]WMmBkAUMYQ_@WQMa@Ua@Wk@_@s@e@_Am@]U"
+                            },
+                            "start_location": {
+                                "lat": 35.6842478,
+                                "lng": 139.7683223
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.3 km",
+                                "value": 2340
+                            },
+                            "duration": {
+                                "text": "6分",
+                                "value": 361
+                            },
+                            "end_location": {
+                                "lat": 35.7012444,
+                                "lng": 139.8146837
+                            },
+                            "html_instructions": "<b>蔵前一丁目（交差点）</b> を<b>右折</b>して <b>蔵前橋通り</b>/<wbr/><b>都道315号</b> に入る (<b>蔵前橋</b> の表示)<div style=\"font-size:0.9em\">コーヒー＆スナック ドリームを通過する（2 km 先、左手）</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "}}{xE{petY@WBqA@[@]@W@m@BwADkBJcD?I@OBOBKBODODQH]HYDK\\mABMl@wBBIDQBQ@MBQDIDOLa@L_@DSBIBG@I@E?C@G?G@K?I@OBeA?G?Y@u@@a@@}@@e@?C?AAS?YEsBCqAAk@?WAS?SCmA?GCcACsAC_BGiDGcCC}@Ao@AWEeCAQ?C?IE}AC_BAMAGAu@C}@GoCAs@?SAi@EmBE}BEkBCe@Aq@?KAI?AA_@?EAc@KoBEeBA]Ak@CiACcAEsBG{CA_@EsBC}BAQAc@EmBAM"
+                            },
+                            "start_location": {
+                                "lat": 35.7015946,
+                                "lng": 139.7891019
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.0 km",
+                                "value": 1049
+                            },
+                            "duration": {
+                                "text": "4分",
+                                "value": 218
+                            },
+                            "end_location": {
+                                "lat": 35.710381,
+                                "lng": 139.8145828
+                            },
+                            "html_instructions": "<b>左折</b>して<b>四ツ目通り</b>/<wbr/><b>都道465号</b>に入る",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "w{{xEwpjtYE?{@BU@a@@y@Dy@BC@U@o@BI?m@Bq@BE?m@B]@g@Bg@Bo@BE?iBHk@Ba@Bw@BkERgBVMBeALyATE?]Fi@FI@QBK@oAPU@YCGAC?MCGAEAEAGCAACAGECCEGKOAACEEGKQECQQGEGEEE]Wc@Y"
+                            },
+                            "start_location": {
+                                "lat": 35.7012444,
+                                "lng": 139.8146837
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 172
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 78
+                            },
+                            "end_location": {
+                                "lat": 35.7108481,
+                                "lng": 139.8129626
+                            },
+                            "html_instructions": "<b>押上駅前交番東（交差点）</b> を<b>左折</b>する",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "{t}xEcpjtYk@fAOX_@n@EJGFABADCDEPAH?L?N?F@LBJBF@DDJ?@HR?@"
+                            },
+                            "start_location": {
+                                "lat": 35.710381,
+                                "lng": 139.8145828
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "gmxxE{gatYgAe@kAe@QQPoAHu@u@Q}A_@kEoAeAUgA]gDkCSa@KUe@qBcBuHcAqEiAoFkAiFcAcEi@oBm@qA{@iBm@mAiA}B_@w@OWaC}EoBsCkBiCqC{DuCcEaAqAwAmBY[a@UkAe@eAk@yBkA]Gu@_@sBgAqBgAkF_DeGyD}AcADiBF_CTqJL{@tByHN{@H[Rq@ZeAD[HkEDiCGcDOwIe@mVQiHa@wSKyDKoBEeBCiAU}KMcHGqCAME?qAD{AFcCJkGTkEPyAFkERgBVsAP_BTcBT{ARo@AYE[IQMW_@i@o@s@i@c@Yk@fAo@hAQ\\IVAV?VDXJZHT"
+            },
+            "summary": "江戸通り/国道6号 と 蔵前橋通り/都道315号",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}

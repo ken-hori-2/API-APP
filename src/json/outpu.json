@@ -1,0 +1,357 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "partial_match": true,
+            "place_id": "ChIJC3Cf2PuLGGAROO00ukl8JwA",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "subway_station",
+                "train_station",
+                "transit_station"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "partial_match": true,
+            "place_id": "ChIJ35ov0dCOGGARKvdDH7NPHX0",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 35.7109947,
+                    "lng": 139.8151928
+                },
+                "southwest": {
+                    "lat": 35.6750675,
+                    "lng": 139.766235
+                }
+            },
+            "copyrights": "Map data ©2024 Google",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "8.7 km",
+                        "value": 8666
+                    },
+                    "duration": {
+                        "text": "18分",
+                        "value": 1086
+                    },
+                    "end_address": "日本、〒131-0045 東京都墨田区押上１丁目１−２",
+                    "end_location": {
+                        "lat": 35.7108481,
+                        "lng": 139.8129626
+                    },
+                    "start_address": "日本、〒100-0005 東京都千代田区丸の内１丁目９ 東京駅",
+                    "start_location": {
+                        "lat": 35.6774675,
+                        "lng": 139.766235
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "68 m",
+                                "value": 68
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 19
+                            },
+                            "end_location": {
+                                "lat": 35.6773192,
+                                "lng": 139.766967
+                            },
+                            "html_instructions": "<b>東</b>方向に<b>馬場先通り</b>/<wbr/><b>都道406号</b>を進んで<b>外堀通り</b>/<wbr/><b>都道405号</b>に向かう",
+                            "polyline": {
+                                "points": "egwxE_batYBMHk@D]@K@IDc@"
+                            },
+                            "start_location": {
+                                "lat": 35.6774675,
+                                "lng": 139.766235
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.6 km",
+                                "value": 562
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 110
+                            },
+                            "end_location": {
+                                "lat": 35.6750675,
+                                "lng": 139.7725042
+                            },
+                            "html_instructions": "<b>鍛冶橋通り</b>を進む (<b>永代橋</b> の表示)",
+                            "polyline": {
+                                "points": "gfwxEqfatYFg@Fg@\\sA@?Lc@l@oBp@}BX{@X_A\\eAPk@X}@h@eBDMBGFQBKLa@L]Rg@JIh@cB"
+                            },
+                            "start_location": {
+                                "lat": 35.6773192,
+                                "lng": 139.766967
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.4 km",
+                                "value": 379
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 61
+                            },
+                            "end_location": {
+                                "lat": 35.6781088,
+                                "lng": 139.7743863
+                            },
+                            "html_instructions": "<b>左折</b>する",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "exvxEcibtYOKMG_@Sk@Y_@So@]q@_@wAu@eAi@q@_@oAo@IEm@[KGOK"
+                            },
+                            "start_location": {
+                                "lat": 35.6750675,
+                                "lng": 139.7725042
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "28 m",
+                                "value": 28
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 5
+                            },
+                            "end_location": {
+                                "lat": 35.6783142,
+                                "lng": 139.7745575
+                            },
+                            "html_instructions": "<b>宝町ランプ入口（交差点）</b>を直進して、そのまま<b>江戸・もみじ通り</b>へ進む",
+                            "polyline": {
+                                "points": "ekwxE}tbtYQOUQ"
+                            },
+                            "start_location": {
+                                "lat": 35.6781088,
+                                "lng": 139.7743863
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 km",
+                                "value": 535
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 47
+                            },
+                            "end_location": {
+                                "lat": 35.6822929,
+                                "lng": 139.777389
+                            },
+                            "html_instructions": "<b>宝町IC-辰巳JCT</b> で<b>右</b>車線を使用して <b>首都高速都心環状線</b>、<b>北池袋</b>/<wbr/><b>E4</b>/<wbr/><b>東北道</b>/<wbr/><b>上野</b>/<wbr/><b>辰巳JCT</b>/<wbr/><b>新宿</b> 方面の標識に従う<div style=\"font-size:0.9em\">有料区間</div>",
+                            "maneuver": "ramp-right",
+                            "polyline": {
+                                "points": "mlwxE_vbtYFYBM@I?E?AAC?ACCOGGCEC?AMEQKKEIEKEg@WGECAYOECKGKEAA_@Uc@USKGCSKWSMQgB_AaAe@a@SKEGEMGMGIEGEOG]SkAk@[OKGKG"
+                            },
+                            "start_location": {
+                                "lat": 35.6783142,
+                                "lng": 139.7745575
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.6 km",
+                                "value": 551
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 36
+                            },
+                            "end_location": {
+                                "lat": 35.6816114,
+                                "lng": 139.7804408
+                            },
+                            "html_instructions": "<b>江戸橋JCT</b> で<b>右</b>車線を使用して <b>首都高速6号</b>、<b>首都高速9号</b>/<wbr/><b>湾岸線</b>/<wbr/><b>成田空港</b>/<wbr/><b>箱崎</b>/<wbr/><b>首都高速7号</b>/<wbr/><b>E4</b>/<wbr/><b>東北道</b>/<wbr/><b>E14</b>/<wbr/><b>京葉道路</b> 方面の標識に従う<div style=\"font-size:0.9em\">有料区間</div>",
+                            "maneuver": "ramp-right",
+                            "polyline": {
+                                "points": "iexxEugctYa@[MIOK_@USOEAAAMIIEGEWOGCWOOKGGAAIG[a@KOIKAAAAACEIEMCKCOAKAQ?U?ABODU@C?AFKDKBIHKHIBCLKJG@?NINE@ARGJCVEJCfASn@MVEVGd@M^QRIFA@?@?@?F@"
+                            },
+                            "start_location": {
+                                "lat": 35.6822929,
+                                "lng": 139.777389
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.0 km",
+                                "value": 2016
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 133
+                            },
+                            "end_location": {
+                                "lat": 35.6906904,
+                                "lng": 139.7890719
+                            },
+                            "html_instructions": "<b>向島線</b>/<wbr/><b>首都高速６号</b>/<wbr/><b>ルート 6</b>を進む<div style=\"font-size:0.9em\">有料区間</div>",
+                            "polyline": {
+                                "points": "aaxxEwzctYt@o@VUDG`@c@l@s@h@m@V]NUHMN[HQBI@IDO@KBM?E?CBW?IAa@AGEU?AGYACISy@}BGMGQY{@Qe@Oc@GQKUOa@ACO_@Oe@?AQe@AA?AAEEICK?ACGAG_@mAWw@Si@AEOe@CKUq@Oe@Um@M_@Si@Um@GQIQ?AMWOYGKGKCECEGKACMOGKU]U[Wa@U]GKQUACCCKOIMMQY_@Wa@W_@QWOSW[ACMOEGW]UWAAEEU[]_@OKEEEEECECGEICIAIAMCIAK?I?G?C?I?I@E?G@GBKB[JOHc@TSLUNSLOLQLEDWTQREFSVMPORW`@GHOTSXQVSXMLSVQPEDYXEDa@^QNGDGFCB]XSRIDURKHKFMHMFIBMDYFK@K@WAUAMCGCA?CACCQIICAAECIGIGGGKKKO"
+                            },
+                            "start_location": {
+                                "lat": 35.6816114,
+                                "lng": 139.7804408
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 111
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 7
+                            },
+                            "end_location": {
+                                "lat": 35.6913497,
+                                "lng": 139.7899868
+                            },
+                            "html_instructions": "<b>両国JCT</b> で<b>右</b>車線を使用して <b>首都高速７号小松川線</b>、<b>京葉道路</b> 方面の標識に従う<div style=\"font-size:0.9em\">有料区間</div>",
+                            "maneuver": "ramp-right",
+                            "polyline": {
+                                "points": "yyyxEupetYCSIKKQm@w@MQU[W_@"
+                            },
+                            "start_location": {
+                                "lat": 35.6906904,
+                                "lng": 139.7890719
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.0 km",
+                                "value": 1951
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 89
+                            },
+                            "end_location": {
+                                "lat": 35.6929295,
+                                "lng": 139.8113831
+                            },
+                            "html_instructions": "<b>首都高速７号小松川線</b>/<wbr/><b>ルート 7</b>を進む<div style=\"font-size:0.9em\">有料区間</div>",
+                            "polyline": {
+                                "points": "}}yxEmvetYKQS_@IOKUIYMc@Km@CUCMC_@Aa@?ACe@CwAGsCAsAAM?IAC?AA]Ay@AO?[Ak@G{B?KA_@Ak@AY?K?SAI?K?KEsBAOAk@Ak@Ak@Ak@Ak@A_@AYA[Ak@Ak@?KCkAKgFCiAAQ?QKaF?KAMKcF?OASAw@ASAk@CyAAk@KyEAYAa@?WAY?UAQ?A?QAWAU?SAA?UAQCq@Ck@Aa@AYC_@A_@?A?GAG?EA[ASAY?QAWAQ?WAWA_@?GAYAe@?E?UAW?UAk@AG?G?I?MA[?U?S?EAQ?W?A?Q?U?M?["
+                            },
+                            "start_location": {
+                                "lat": 35.6913497,
+                                "lng": 139.7899868
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 347
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 32
+                            },
+                            "end_location": {
+                                "lat": 35.69319540000001,
+                                "lng": 139.8151928
+                            },
+                            "html_instructions": "<b>錦糸町</b> 出口を <b>四つ目通り</b>/<wbr/><b>押上</b>/<wbr/><b>国道14号</b>/<wbr/><b>東京スカイツリー</b> 方面に向かって進む<div style=\"font-size:0.9em\">有料区間</div>",
+                            "maneuver": "ramp-left",
+                            "polyline": {
+                                "points": "ygzxEc|itYEMA?Ag@?CCm@?CEkB?AAi@AO?EAM?G?K?IAY?AAc@?KC_A?OCqA?SA]AY?U?O?M?GAU?GAC?A?CGU"
+                            },
+                            "start_location": {
+                                "lat": 35.6929295,
+                                "lng": 139.8113831
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.9 km",
+                                "value": 1946
+                            },
+                            "duration": {
+                                "text": "8分",
+                                "value": 469
+                            },
+                            "end_location": {
+                                "lat": 35.710381,
+                                "lng": 139.8145828
+                            },
+                            "html_instructions": "<b>四ツ目通り</b>/<wbr/><b>都道465号</b> に入る",
+                            "maneuver": "merge",
+                            "polyline": {
+                                "points": "oizxE}sjtYE?c@@U@cADO?iADo@B}AFe@@_@@m@DI@M?YEQ?i@BM?U?Q@I?O?C?O?c@?]?c@?Q?G?a@@G?G@W@a@AM?O@E?[@C?Q@A?]@A?C?G@K?G?[BQ@e@@Q@I?[BG?G@q@Be@@O?M@E?gABcAFI?KB}@BI@O@E?{@BU@a@@y@Dy@BC@U@o@BI?m@Bq@BE?m@B]@g@Bg@Bo@BE?iBHk@Ba@Bw@BkERgBVMBeALyATE?]Fi@FI@QBK@oAPU@YCGAC?MCGAEAEAGCAACAGECCEGKOAACEEGKQECQQGEGEEE]Wc@Y"
+                            },
+                            "start_location": {
+                                "lat": 35.69319540000001,
+                                "lng": 139.8151928
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 172
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 78
+                            },
+                            "end_location": {
+                                "lat": 35.7108481,
+                                "lng": 139.8129626
+                            },
+                            "html_instructions": "<b>押上駅前交番東（交差点）</b> を<b>左折</b>する",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "{t}xEcpjtYk@fAOX_@n@EJGFABADCDEPAH?L?N?F@LBJBF@DDJ?@HR?@"
+                            },
+                            "start_location": {
+                                "lat": 35.710381,
+                                "lng": 139.8145828
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "egwxE_batYl@aFzAgFbC_IxBeH`@eAJIh@cB]SkAm@yEgCqE_Cy@c@a@[UQFYDWAMa@SqBcAaCqA[Ok@_@MQgB_AcBy@o@[_Ag@_CkA_BgA{A}@q@e@e@i@U[KQOu@Ag@BQNg@HURU^Wt@YvBa@dCi@|@]B?F@t@o@\\]nAwA`AkAXc@Xm@DSJo@@gAOy@mAcDiBeF{@aCI]mAuDy@iCmAeD_@}@c@w@gBmCyAwBeCmD_BqBy@w@]Qk@Ia@?a@BSFk@TaB`A_Av@y@dAo@~@iA`By@|@eCzB_Av@q@\\g@LWBm@CUG[O[Qi@k@CSIKy@iAgA_B]o@Uo@YqAGc@IiBS{J]eQaBgz@GwCScFSoHKyH?w@?[EMCg@IaDCaAEkBKoGCmAGUE?y@BmENqEPW@YEQ?w@Bg@@m@?wB?q@@eCDoFTqGRcBJyBFgHXaIZqI^uG~@wAPcCXgAOUMW][c@g@c@aAq@{@`Bo@fAEJGZ?\\@TNd@HV"
+            },
+            "summary": "向島線/首都高速６号/ルート 6",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}
